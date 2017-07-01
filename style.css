@@ -1,0 +1,48 @@
+body{
+  font-family: 'Indie Flower', cursive;
+  background-color: pink;
+  font family: 'helvetica'
+}
+p {
+  color: black;
+  font-size: 50px;
+  font-family: 'helvetica'
+}
+  h1 {
+    font-size: 50px;
+    font-family: 'helvetica'
+
+  }
+img {
+  width:500px;
+  height: auto;
+  display: block;
+}
+a {color: #15367;}
+.common {
+    background-color: purple;
+    width: 50%auto;margin: auto;
+    text-align: center;
+}
+.special {
+    background-color: #12340;
+}
+#onelist {
+  color: black;
+}
+@-webkit-keyframes blinker {
+  from {
+      color: red;
+  }
+  to {
+      color: orange;
+
+  }
+}
+
+h1 {
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 0.2s;
+}
