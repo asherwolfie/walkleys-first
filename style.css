@@ -1,10 +1,15 @@
 body{
-  font-family: 'Indie Flower', cursive;
-  background-color: pink;
-  font family: 'helvetica'
+  font-family: 'Bitter', 'serif';
+  background-color: #1B2631;
+  color: #95A5A6;
 }
-p {
-  color: black;
+div.common h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+/*p {
+  color: #EBDEF0;
   font-size: 50px;
   font-family: 'helvetica'
 }
@@ -18,26 +23,17 @@ img {
   height: auto;
   display: block;
 }
-a {color: #15367;}
+a {color: #EBDEF0;}
 .common {
-    background-color: purple;
+    background-color: #EBDEF0;
     width: 50%auto;margin: auto;
     text-align: center;
 }
 .special {
-    background-color: #12340;
+    background-color: #EAF2F8;
 }
 #onelist {
   color: black;
-}
-@-webkit-keyframes blinker {
-  from {
-      color: red;
-  }
-  to {
-      color: orange;
-
-  }
 }
 
 h1 {
@@ -45,4 +41,4 @@ h1 {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in;
   -webkit-animation-duration: 0.2s;
-}
+}*/
